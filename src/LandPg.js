@@ -275,7 +275,7 @@ const LandPg = () => {
                             <h2 style={{fontWeight: 'bold', textAlign: 'center', borderBottom: '1px solid black'}}>{genre.toUpperCase()} CATEGORY</h2>
                             {catInfo}<br/><br/>
                             <h2 style={{fontWeight: 'bold', textAlign: 'center', borderBottom: '1px solid black'}}>ABOUT THIS APP</h2>
-                            This application was made from scratch by me, King Legitto. This is my
+                            This application was made from scratch by me, Chizi. This is my
                             first ever application. It took a while to make this app so feel free to support me if you think it's
                             ...cool.<br/><br/>
                             <h2 style={{fontWeight: 'bold', textAlign: 'center', borderBottom: '1px solid black'}}>DYNAMIC DIFFICULTY</h2>
@@ -284,8 +284,7 @@ const LandPg = () => {
                             by clicking on the option in the difficulty select menu.<br/><br/>
                             There are a total number of 7 randomly selected questions you will answer per quiz attempt, making the maximum score possible to be 70. Also, at the highest difficulty, 
                             a countdown timer is activated, giving you only 30 seconds to answer all remaining questions. You can use the links below to contact me (Yes they're clickable). Have fun and goodluck💯<br/><br/>
-                            <div style={{ textAlign: 'center'}}><a href="https://instagram.com/king_legitto?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" className="link">IG: king_legitto</a></div>
-                            <div style={{ textAlign: 'center'}}><a href="https://mail.google.com/" target="_blank" className="link">Email: kinglegitto@gmail.com</a></div>
+
                         </div>
                         
                     </div>
@@ -307,7 +306,7 @@ const LandPg = () => {
 
                 </div>
                 <section className="header centerText relative">
-                    Legitto's COOL QUIZ
+                    Chizi's COOL QUIZ
                 </section>
                 <section className="genreBox">
                     
