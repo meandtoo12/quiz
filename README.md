@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# Chizi's Cool Quiz: A Quiz Application
+The application is the user-facing part of a quiz application. It is intended to test your knowledge on Anime, Games and just General Knowledge.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+There are 4 modes. Easy, Medium, Hard and Dynamic which the program selects a random mode for you.
+
+It is built using React and is packaged using Docker containers.
+
+## Screenshot
+ ![Quiz app](./Screenshot.png)
+
+
+## Deployment
+
+### Docker
+Build the dockerfile with the following commands
+
+docker build -t quiz-app .
+
+docker run -p 3000:3000 -d quiz-app
+
 
 ## Available Scripts
 
@@ -29,27 +46,9 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Bugs, Feature Requests and Contributing
+I'd love to accept your contributions; large or small. Simply submit an issue or pull request via Github. Please open an issue if you have found an issue or have an idea for a new feature. P
 
 
-### Deployment
-
-## Docker
-Build the dockerfile with the following commands
-
-docker build -t quiz-app .
-
-docker run -p 8080:3000 quiz-app
 
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
